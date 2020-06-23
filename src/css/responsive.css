@@ -1,0 +1,228 @@
+/* ------------------------------ Responsives ------------------------------ */
+
+@media only screen and (max-width: 1200px) {
+	/* ------------- NavBar ------------- */
+	.menu-itens {
+	    margin-left: 2.5%;
+	}
+	/* ------------- NavBar ------------- */
+
+	/* ------------- About ------------- */
+	.about-text {
+		padding-top: 0%;
+	}
+	/* ------------- About ------------- */
+
+	/* ------------- Clients ------------- */
+	.clients-text {
+		margin-bottom: 10%;
+	}
+	/* ------------- Clients ------------- */
+}
+@media only screen and (max-width: 991px) {
+	/* ------------- NavBar ------------- */
+	.menu-itens {
+	    margin-left: 0%;
+	    margin-top: 30%;
+	}
+	ul li a {
+		padding: 10px;
+		font-size: 25px;
+	}
+	/* ------------- NavBar ------------- */
+
+	/* ------------- Header ------------- */
+	header h1 {
+		padding-top: 50%;
+	}
+	/* ------------- Header ------------- */
+
+	/* ------------- About ------------- */
+	.about-text {
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+	/* ------------- About ------------- */
+
+	/* ----------- Portfolio ----------- */
+	.work img {
+		margin: 2%;
+		width: 45%;
+	}
+	/* ----------- Portfolio ----------- */
+
+	/* ----------- Icons Background ----------- */
+	.services-icon {
+		position: absolute;
+		padding-top: -30%;
+		opacity: 0.3;
+		font-size: 250px;
+		color: #e91e63;  
+	}
+	.projects {
+		position: absolute;
+		padding-top: 10%;
+		opacity: 0.3;
+		font-size: 250px;
+		color: #e91e63;  
+	}
+	.quote {
+		position: absolute;
+		opacity: 0.3;
+		font-size: 250px;
+		color: #e91e63;  
+	}
+	.team-icon {
+		position: absolute;
+		opacity: 0.3;
+		font-size: 250px;
+		color: #e91e63;  
+	}
+	.contact-icon {
+		position: absolute;
+		opacity: 0.3;
+		font-size: 250px;
+		color: #e91e63;  
+	}
+	/* ----------- Icons Background ----------- */
+
+	/* ----------- 404 ----------- */
+	.error-title {
+		position: absolute;
+		top: 0;
+		transform: translate(-50%,-60%);
+		font-size: 250px;
+		font-weight: 900;
+		color: #e91e63;
+		opacity: 0.3;
+	}
+	/* ----------- 404 ----------- */
+
+}
+@media only screen and (max-width: 767px) {
+	/* ------------- NavBar ------------- */
+	.nav-toggle {
+		margin-top: 2%;
+	}
+	ul li a {
+		float: none;
+		padding: 15px;
+		font-size: 30px;
+	}
+	.menu-itens {
+	    margin-left: -10%;
+	    margin-top: 35%;
+	}
+	/* ------------- NavBar ------------- */
+
+	/* ------------- Header ------------- */
+	header h1 {
+		padding-top: 70%;
+	}
+	/* ------------- Header ------------- */
+
+	/* ------------ Portfolio ----------- */
+	.work img {
+		margin: 2%;
+		width: 95%;
+	}
+	.portfolio ul li {
+		margin: 10px;
+		font-size: 10px;
+		padding: 15px 30px;
+	}
+	/* ------------ Portfolio ----------- */
+
+	/* ------------ Contact ----------- */
+	.contact button {
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+	/* ------------ Contact ----------- */
+
+	/* ----------- 404 ----------- */
+	.error-title {
+		position: absolute;
+		top: 0;
+		transform: translate(-50%,-60%);
+		font-size: 250px;
+	}
+	/* ----------- 404 ----------- */
+}
+
+@media only screen and (max-width: 600px) {
+	/* ----------- 404 ----------- */
+	.error-title {
+		position: absolute;
+		top: 0;
+		transform: translate(-50%,-60%);
+		font-size: 200px;
+	}
+	/* ----------- 404 ----------- */
+}
+@media only screen and (max-width: 490px) {
+	/* ----------- 404 ----------- */
+	.error-title {
+		position: absolute;
+		top: 0;
+		transform: translate(-50%,-60%);
+		font-size: 180px;
+	}
+	.caption {
+		position: relative;
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	/* ----------- 404 ----------- */
+}
+@media only screen and (max-width: 414px) {
+	/* ------------- Header ------------- */
+	header h1 {
+		padding-top: 90%;
+		font-size: 40px;
+	}
+	header p {
+		padding-bottom: 30px;
+	}
+	/* ------------- Header ------------- */
+
+	/* ------------ Portfolio ----------- */
+	.portfolio ul li {
+		margin: 5px;
+		font-size: 10px;
+		padding: 15px 30px;
+	}
+	/* ------------ Portfolio ----------- */
+
+	/* ----------- 404 ----------- */
+	.error-title {
+		position: absolute;
+		top: 0;
+		transform: translate(-50%,-60%);
+		font-size: 150px;
+	}
+	.caption h2 {
+		font-size: 30px;
+	}
+	/* ----------- 404 ----------- */
+}
+@media only screen and (max-width: 375px) {
+
+	/* ------------ Portfolio ----------- */
+	.portfolio ul li {
+		margin: 1px;
+		font-size: 10px;
+		padding: 10px 20px;
+	}
+	/* ------------ Portfolio ----------- */
+
+	/* ----------- 404 ----------- */
+	.error-title {
+		position: absolute;
+		top: 0;
+		transform: translate(-50%,-60%);
+		font-size: 135px;
+	}
+	/* ----------- 404 ----------- */
+}
